@@ -1,0 +1,7 @@
+query GetTweet($id: UUID!) {
+    Tweet(id: $id) {
+        id
+        body
+        date
+    }
+}
